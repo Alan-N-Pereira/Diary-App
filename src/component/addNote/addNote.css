@@ -1,0 +1,46 @@
+.addNote-container{
+    background-color: #F2783C;
+    color: #ebf0f2;
+    border-radius: 10px;
+    padding: 16px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    cursor: pointer;
+}
+
+.addNote-container:hover{
+    background-color: #f2793cef;
+}
+
+.addNote-container:active{
+    animation: click 0.6s ease-in-out;
+
+}
+
+@keyframes click{
+    from{
+        transform:  scale(0.96);
+        transform-origin: center; 
+    }
+    to{
+        transform:  scale(1);
+        transform-origin: center; 
+    }
+}
+
+.add{
+    margin-bottom: 10px;
+}
+
+.add-icon{
+    font-size: 40px;
+}
+
+.addNote-title{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}

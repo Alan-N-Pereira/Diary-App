@@ -1,14 +1,36 @@
 .note-container{
-    background-color: #fef68a;
+    background-color: #A42E5C;
+    color: #ebf0f2;
     border-radius: 10px;
     padding: 16px;
     min-height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+
+.note-title{
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.note-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #ffffffe3;
+    line-height: 1.5em;
 }
 
 .note-footer{
     display: flex;
     justify-content: space-between;
+}
+
+.note-icon{
+    cursor: pointer;
+}
+
+.note-icon:first-child{
+    margin-right: 10px;
 }

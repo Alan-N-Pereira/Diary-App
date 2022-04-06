@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+#root{
+    background-color: #ebf0f2;
+}
+
 .app-container{
     max-width: 960px;
     margin:0 auto;
