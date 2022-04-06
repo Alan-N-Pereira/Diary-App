@@ -1,7 +1,11 @@
+
+import Note from '../note/Note'
 import './noteList.css'
 
-export default function NoteList() {
+export default function NoteList({notes}) {
   return (
-    <div className='container'>NoteList</div>
+    <div className='noteList-container'>
+      {notes.map((note)=><Note key={note.id} note={note}/>)}
+    </div>
   )
 }

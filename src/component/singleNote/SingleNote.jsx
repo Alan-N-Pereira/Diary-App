@@ -2,6 +2,6 @@ import './singleNote.css'
 
 export default function SingleNote() {
   return (
-    <div className='container'>SingleNote</div>
+    <div className='container'></div>
   )
 }
