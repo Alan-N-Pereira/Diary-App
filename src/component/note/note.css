@@ -13,6 +13,7 @@
 .note-title{
     font-size: 24px;
     font-family: 'Roboto Slab', serif;
+    margin-bottom: 20px;
 }
 
 .note-text{
@@ -20,6 +21,8 @@
     font-size: 14px;
     color: #ffffffe3;
     line-height: 1.5em;
+    word-break: break-all;
+  white-space: pre-wrap
 }
 
 .note-footer{

@@ -41,9 +41,25 @@ function App() {
 		}
 	]);
 
+	const addNote = (title, text, date) => {
+		const newNote = {
+			id: Math.random().toString(36).slice(2, 9),
+			title: title,
+			text: text,
+			date: date
+		};
+		const newNotes = [ ...notes, newNote ];
+		setNotes(newNotes);
+	};
+
+	const deleteNote = (id) => {
+		const newNotes = notes.filter((note) => note.id !== id);
+		setNotes(newNotes);
+	};
+
 	return (
 		<div className="app-container">
-			<NoteList notes={notes} />
+			<NoteList notes={notes} handleAddNote={addNote} handleDeleteNote={deleteNote} />
 		</div>
 	);
 }
