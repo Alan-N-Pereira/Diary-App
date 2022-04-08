@@ -1,0 +1,19 @@
+.sort-container{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.select{
+    border: none;
+    background-color: #574f53;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+.select:focus{
+    outline: none;
+}
